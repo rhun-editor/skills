@@ -1,0 +1,20 @@
+{
+  "name": "rhun-editor",
+  "interface": {
+    "displayName": "rhun editor"
+  },
+  "plugins": [
+    {
+      "name": "rhun",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rhun"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

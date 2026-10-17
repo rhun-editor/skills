@@ -1,0 +1,27 @@
+{
+  "name": "rhun",
+  "version": "0.1.0",
+  "description": "Build, test and release extensions for the rhun editor in Rust, Go, C or C++.",
+  "author": {
+    "name": "rhun-editor"
+  },
+  "homepage": "https://rhun.app/extensions/",
+  "repository": "https://github.com/rhun-editor/skills",
+  "license": "MIT",
+  "keywords": ["rhun", "editor", "extensions", "rust", "go", "c"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "rhun extensions",
+    "shortDescription": "Write rhun editor extensions",
+    "longDescription": "Write, test and publish extensions for the rhun editor: commands, edits, diagnostics, hover, views with charts, completion and signature help, in Rust, Go, C or C++.",
+    "developerName": "rhun-editor",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://rhun.app/extensions/",
+    "defaultPrompt": [
+      "Write a rhun extension in Rust that charts my project",
+      "Add completion to my rhun extension",
+      "Test my rhun extension with the conformance checker"
+    ]
+  }
+}

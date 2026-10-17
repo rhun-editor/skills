@@ -1,0 +1,14 @@
+{
+  "name": "rhun-editor",
+  "owner": { "name": "rhun-editor", "url": "https://rhun.app" },
+  "description": "Skills for writing extensions for the rhun editor",
+  "plugins": [
+    {
+      "name": "rhun",
+      "source": "./plugins/rhun",
+      "description": "Build, test and release rhun extensions in Rust, Go, C or C++",
+      "version": "0.1.0",
+      "category": "development"
+    }
+  ]
+}
