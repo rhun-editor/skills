@@ -1,6 +1,6 @@
 {
   "name": "rhun",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Build, test and release extensions for the rhun editor in Rust, Go, C or C++.",
   "author": {
     "name": "rhun-editor"

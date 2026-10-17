@@ -7,7 +7,7 @@
       "name": "rhun",
       "source": "./plugins/rhun",
       "description": "Build, test and release rhun extensions in Rust, Go, C or C++",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "category": "development"
     }
   ]
