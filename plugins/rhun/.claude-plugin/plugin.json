@@ -1,7 +1,7 @@
 {
   "name": "rhun",
   "description": "Build, test and release extensions for the rhun editor in Rust, Go, C or C++: commands, edits, diagnostics, hover, views with charts, completion and signature help.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": { "name": "rhun-editor" },
   "homepage": "https://rhun.app/extensions/",
   "repository": "https://github.com/rhun-editor/skills",
