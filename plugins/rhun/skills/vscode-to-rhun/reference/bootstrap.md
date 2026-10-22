@@ -44,7 +44,7 @@ Then rename by hand, replacing `hello` (the template's name) and `rhun-editor` (
 
 ## Then (both ways)
 
-1. **SDK 1.4.1**: the templates pin 1.4.0. Rust: `rhun-ext = { git =
+1. **SDK 1.4.1**, if the template still pins 1.4.0. Rust: `rhun-ext = { git =
    "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.1" }` in `Cargo.toml`;
    Go: `go get github.com/rhun-editor/extension-protocol@v1.4.1 && go mod tidy`.
 2. **Remove the demo**: the `say`, `upper`, `greet` commands, the `[keys]` chord, `[menu.editor]`,
