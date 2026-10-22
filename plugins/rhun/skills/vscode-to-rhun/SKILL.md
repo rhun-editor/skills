@@ -57,10 +57,12 @@ Paths below like `rhun-extension/reference/views.md` are that skill's pages.
    `reference/api.md` (the `vscode` namespaces to Rust and Go calls). Decide converted,
    approximated or not supported, with the reason. Then pick the shape:
    - a theme, grammar or icon theme collection: data files (`themes/`, `syntax/`,
-     `icon-themes/`; `contributes.md` says how each converts). rhun 0.18 still wants a program
-     for each target or a `pack` line: a manifest with neither fails ("no program for this
-     target") and none of its data loads. Keep the template's program with `on = command` and
-     no commands (it never starts), or make it a pack of related extensions;
+     `icon-themes/`; `contributes.md` says how each converts). From rhun 0.18.1 this is a data
+     extension: a manifest with no `run`, `runtime`, `[commands]` or `[provides]` loads its
+     themes, grammars, icon themes, `[language.NAME]` and `[keys]` and starts nothing; delete
+     the template's program, its `run.*` lines and the release's build steps. rhun 0.18.0
+     refuses such a manifest ("no program for this target"): for it, keep the template's
+     program with `on = command` and no commands (it never starts), or make it a pack;
    - a snippet collection: completion items from a small Go program (`contributes.md`,
      "snippets");
    - a language client (`vscode-languageclient`): usually `rhun-editor/lsp` with a configuration,
