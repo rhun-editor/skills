@@ -150,3 +150,5 @@ are out, use the tag.
 - `reference/resources.md`: workspace watch, files, folders, scoped settings, secrets, URIs,
   URLs and sign-in, idle stop. `reference/distribution.md`: remote windows, WebAssembly, packs,
   releases, the index, updates, development installs.
+- Porting a VS Code extension: the vscode-to-rhun skill of the same plugin
+  (`../vscode-to-rhun/SKILL.md`).

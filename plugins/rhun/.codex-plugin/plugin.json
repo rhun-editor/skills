@@ -1,27 +1,27 @@
 {
   "name": "rhun",
-  "version": "0.4.0",
-  "description": "Build, test and release extensions for the rhun editor in Rust, Go, C or C++.",
+  "version": "0.5.0",
+  "description": "Build, test and release extensions for the rhun editor in Rust, Go, C or C++, and convert VS Code extensions to rhun.",
   "author": {
     "name": "rhun-editor"
   },
   "homepage": "https://rhun.app/extensions/",
   "repository": "https://github.com/rhun-editor/skills",
   "license": "MIT",
-  "keywords": ["rhun", "editor", "extensions", "rust", "go", "c"],
+  "keywords": ["rhun", "editor", "extensions", "rust", "go", "c", "vscode"],
   "skills": "./skills/",
   "interface": {
     "displayName": "rhun extensions",
-    "shortDescription": "Write rhun editor extensions",
-    "longDescription": "Write, test and publish extensions for the rhun editor in Rust, Go, C or C++, with protocol 1.1 (rhun 0.18): commands with keys, menus and status items, workspace edits, snippets, views, every language feature, decorations, tasks, debuggers, test controllers, source control, notebooks, custom editors, agents and tools.",
+    "shortDescription": "Write rhun editor extensions, or port VS Code ones",
+    "longDescription": "Write, test and publish extensions for the rhun editor in Rust, Go, C or C++, with protocol 1.1 (rhun 0.18): commands with keys, menus and status items, workspace edits, snippets, views, every language feature, decorations, tasks, debuggers, test controllers, source control, notebooks, custom editors, agents and tools. Convert a VS Code extension from its marketplace, Open VSX or GitHub link into a rhun extension in Rust or Go, with a report of what converted.",
     "developerName": "rhun-editor",
     "category": "Developer Tools",
     "capabilities": ["Read", "Write"],
     "websiteURL": "https://rhun.app/extensions/",
     "defaultPrompt": [
       "Write a rhun extension in Rust that charts my project",
-      "Add completion to my rhun extension",
-      "Test my rhun extension with the conformance checker"
+      "Test my rhun extension with the conformance checker",
+      "Convert this VS Code extension to a rhun extension in Rust"
     ]
   }
 }
