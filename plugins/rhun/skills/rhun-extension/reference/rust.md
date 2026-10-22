@@ -2,7 +2,7 @@
 
 ```toml
 [dependencies]
-rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.1" }
+rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.2" }
 ```
 
 Version 1.4 speaks protocol 1.1 (rhun 0.18). For an unreleased SDK change, point at a checkout
