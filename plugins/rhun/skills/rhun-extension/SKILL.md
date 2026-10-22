@@ -19,9 +19,9 @@ section of every feature you use; the reference pages here name them).
 
 - **Rust** (default): https://github.com/rhun-editor/template-rust, SDK `rhun-ext`
   (`reference/rust.md`): `rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol",
-  tag = "rust-v1.4.0" }`. The richest SDK (charts included), small static binaries.
+  tag = "rust-v1.4.1" }`. The richest SDK (charts included), small static binaries.
 - **Go**: https://github.com/rhun-editor/template-go, SDK `rhunext` (`reference/go.md`):
-  `go get github.com/rhun-editor/extension-protocol@v1.4.0`. Go alone parses snippet templates and
+  `go get github.com/rhun-editor/extension-protocol@v1.4.1`. Go alone parses snippet templates and
   compiles regex transforms from source (`snippets.md`).
 - **C or C++**: one header, `c/rhunext.h` of the same repository (`reference/c.md`); examples
   `rhun-editor/wordfreq` (C, views) and `rhun-editor/words` (C++, completion).

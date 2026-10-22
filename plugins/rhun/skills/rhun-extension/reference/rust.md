@@ -2,7 +2,7 @@
 
 ```toml
 [dependencies]
-rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.0" }
+rhun-ext = { git = "https://github.com/rhun-editor/extension-protocol", tag = "rust-v1.4.1" }
 ```
 
 Version 1.4.0 speaks protocol 1.1 (rhun 0.18). Until its tag is out, template-rust builds
